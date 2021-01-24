@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 string Operation(string str,string op)
 {
 	int i,j,len;
@@ -9,15 +8,7 @@ string Operation(string str,string op)
 	j=op[1]-'0'+len-1;
 	if(op[0]=='0')			//·­×ª
 	{	
-		char c;
-		while(i<j)
-		{
-			c=str[i];
-			str[i]=str[j];
-			str[j]=c;
-			++i;
-			--j;
-		}
+		reverse(s.begin()+start,s.begin) 
 		
 	}else if(op[0]=='1'){  //Ìæ»» 
 		int cc=3;
@@ -43,10 +34,11 @@ int main()
 		cout << str <<endl;
 	}
 }
+
 //181wtr
-0123456789
-jkygexrrwtrunuwxalgcbxistydvrxmfyhb
-jkygexrrw  unuwxalgcbxistydvrxmfyhb
+//0123456789
+//jkygexrrwtrunuwxalgcbxistydvrxmfyhb
+//jkygexrrw  unuwxalgcbxistydvrxmfyhb
 //009
-wrrxegykjtrunuwxalgcbxistydvrxmfyhb
-wrrxegykjunuwxalgcbxistydvrxmfyhb
+//wrrxegykjtrunuwxalgcbxistydvrxmfyhb
+//wrrxegykjunuwxalgcbxistydvrxmfyhb
